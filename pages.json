@@ -1,0 +1,43 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "视频去水印"
+			}
+		}
+	    ,{
+            "path" : "pages/gpt/gpt",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "视频去水印",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar/list.png",
+			"selectedIconPath": "static/tabbar/list_active.png",
+			"text": "水印"
+		}, {
+			"pagePath": "pages/gpt/gpt",
+			"iconPath": "static/tabbar/me.png",
+			"selectedIconPath": "static/tabbar/me_active.png",
+			"text": "GPT"
+		}]
+	}
+}
